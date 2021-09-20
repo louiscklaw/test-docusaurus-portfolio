@@ -7,10 +7,10 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
   module.exports = {
     title: "My Site",
     tagline: "Dinosaurs are cool",
-    url: "https://your-docusaurus-test-site.com",
+    url: "https://aboutme.louislabs.com",
     baseUrl: "/",
-    projectName: "docusaurus", // Usually your repo name.
-    organizationName: "endiliey",
+    projectName: "test-docusaurus-portfolio", // Usually your repo name.
+    organizationName: "louiscklaw",
     trailingSlash: false,
 
     onBrokenLinks: "throw",
