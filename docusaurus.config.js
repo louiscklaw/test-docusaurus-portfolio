@@ -34,6 +34,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
             editUrl:
               "https://github.com/facebook/docusaurus/edit/main/website/blog/",
           },
+
           theme: {
             customCss: require.resolve("./src/css/custom.css"),
           },
@@ -58,6 +59,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
               label: "Tutorial",
             },
             { to: "/blog", label: "Blog", position: "left" },
+
             {
               href: "https://github.com/facebook/docusaurus",
               label: "GitHub",
@@ -70,12 +72,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
           links: [
             {
               title: "Docs",
-              items: [
-                {
-                  label: "Tutorial",
-                  to: "/docs/intro",
-                },
-              ],
+              items: [{ label: "Tutorial", to: "/docs/intro" }],
             },
             {
               title: "Community",
@@ -101,6 +98,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
                   label: "Blog",
                   to: "/blog",
                 },
+
                 {
                   label: "GitHub",
                   href: "https://github.com/facebook/docusaurus",
