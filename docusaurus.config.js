@@ -9,14 +9,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
     tagline: "Dinosaurs are cool",
     url: "https://aboutme.louislabs.com",
     baseUrl: "/",
-    projectName: "test-docusaurus-portfolio", // Usually your repo name.
     organizationName: "louiscklaw",
+    projectName: "test-docusaurus-portfolio", // Usually your repo name.
     trailingSlash: false,
 
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
     favicon: "img/favicon.ico",
-    organizationName: "facebook", // Usually your GitHub org/user name.
 
     presets: [
       [
